@@ -1,41 +1,52 @@
 import React from "react";
-
-import library from "../../../assets/imgs/library.png";
-import cafeteria from "../../../assets/imgs/cafeteria.png";
-import basketball from "../../../assets/imgs/basketball.png";
-
+import advogado from "../../../assets/imgs/foto-adv.jpg";
 import "./Facilities.style.css";
 
 const Facilities = () => {
   return (
     <section class="facilities">
-      <h1>Our Facilities</h1>
+      <h1>Nossa visão</h1>
       <p>
-        Our facilities are well structured, organized and equipped with the very
-        best.
+        Quem somos e qual nossa visão.
       </p>
+
       <div class="row">
-        <div class="facilities-col">
-          <img src={library} alt="Librarie" />
-          <h3>World Class Library</h3>
-          <p>Libraries with ample space and air-conditioned environment.</p>
+
+        <div class="vision-content">
+          
+          <div class="vision-1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div>
+              <h3>Visão</h3>
+            </div>
+            <p>
+            Prover soluções jurídicas com criatividade, segurança e ética como pilares de sustentação para transformação da sociedade por meio da realização dos sonhos e ideais de nossos clientes.
+            </p>
+          </div>
+
+
+          <div class="vision-1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div>
+              <h3>Missão</h3> 
+            </div>
+              <p>
+              Ser referência em soluções jurídicas para o setor trabalhista, empresas e funcionários.
+              </p>
+          </div>
+
+          <div class="vision-1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div>
+              <h3>Valores</h3>
+            </div>
+              <p>• Valorização das pessoas;</p>
+              <p>• Ética e integridade;</p>
+              <p>• Qualidade, segurança e eficiência.</p>
+            </div>
         </div>
-        <div class="facilities-col">
-          <img src={cafeteria} alt="cafeteria" />
-          <h3>Testy and Healthy food</h3>
-          <p>
-            Spaces for dining, lunch or any meal that is needed. Café with a
-            variety of food options
-          </p>
+        
+        <div class="cont1" data-aos="fade-left">
+          <img class="img-adv" src={advogado} alt="advogado" />
         </div>
-        <div class="facilities-col">
-          <img src={basketball} alt="basketball" />
-          <h3>Largest Play Ground</h3>
-          <p>
-            Ample place for the most varied games. We have basketball courts,
-            baseball and soccer fields
-          </p>
-        </div>
+        
       </div>
     </section>
   );

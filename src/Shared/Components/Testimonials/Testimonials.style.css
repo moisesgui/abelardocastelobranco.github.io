@@ -1,6 +1,6 @@
 .testimonials{
 	width: 80%;
-	margin: auto;
+	margin: 0 auto 60px;
 	padding-top: 100px;
 	text-align: center;
 }
@@ -10,7 +10,7 @@
 }
 
 .testimonials p{
-	padding: 0px;
+	padding: 10px;
 	color: #777;
 	font-size: 14px;
 	font-weight: 300;
@@ -27,12 +27,13 @@
 	display: flex;
 }
 .testimonials-col:hover{
-	transform: scale(1.06);
+	transform: scale(1);
 	transition: 0.4s;
-	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.24);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.24);
 }
 .testimonials-col img{
-	height: 40px;
+	height: 60px;
+	width: 60px;
 	margin-left: 5px;
 	margin-right: 30px;
 	border-radius: 50%;
@@ -41,6 +42,14 @@
 	margin-top: 20px;
 	font-size: 16px;
 	font-weight: 400;
+}
+
+.map-container{
+	margin: 100px auto 100px
+}
+.local-maps{
+	border: solid 1px #cccc;
+	margin-top: 40px;
 }
 
 @media(max-width: 700px){

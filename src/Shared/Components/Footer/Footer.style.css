@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+
 .call-contact{
 	margin: 100px auto;
 	width: 80%;
@@ -16,6 +18,10 @@
 	font-weight: 600;
 }
 
+svg:hover {
+	color:#926a42!important;
+}
+
 @media(max-width: 700px){
 	.call-contact h1{
 		font-size: 22px;
@@ -26,8 +32,8 @@
 .footer{
 	width: 100%;
 	text-align: center;
-	padding: 30px 0;
-	background-color: #313131;
+	padding: 50px 0;
+	background-color: #3E3E3F;
 }
 .footer h4{
 	margin-bottom: 25px;
@@ -36,12 +42,37 @@
 	color: #fff;
 }
 .footer p{
+	font-family: 'Source Code Pro', monospace;
 	padding: 0px;
 	color: #fff;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 300;
 	line-height: 22px;
+	
 }
+.footer p::before{
+	content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #926a42;
+    margin: 14px auto 10px auto;
+}
+.footer p::after{
+	content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #926a42;
+    margin: 14px auto 20px auto;
+}
+.footer span{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
 .contact-medias{
 	display: flex;
 	justify-content: center;
@@ -54,7 +85,7 @@
 		padding: 5px;
 	}
 	.footer p{
-		padding: 0 20px;
+		padding: 10px 50px;
 	}
 	.contact-medias a{
 		padding: 1px;

@@ -6,35 +6,36 @@ import "./Footer.style.css";
 const Footer = () => {
   return (
     <section>
-      <div class="call-contact">
-        <h1>
-          Enroll For Our Online Courses Anywhere in the world, <br />
-          click on the button below to find out more.
-        </h1>
-        <a href="" class="btn-hero">
-          CONTACT US
-        </a>
-      </div>
       <div class="footer">
-        <h4>ABOUT Us</h4>
+        <h4></h4>
         <p>
-          You can learn more about our teaching, our courses, teachers and much
-          more. If you still have any questions, <br />
-          we are at your disposal, contact us at any time.
+          "O direito do trabalho existe para poupar o trabalhador da exploração do capital e para<br></br>poupar a criança do roubo de suas infâncias".
         </p>
+        <span>Felipe Caetano</span>
         <div class="contact-medias">
-          <FaFacebook
+          <a href="https://www.facebook.com" target="_blank">
+            <FaFacebook
             style={{ color: "#fff", fontSize: "30px", padding: "10px" }}
           />
-          <FaInstagram
-            style={{ color: "#fff", fontSize: "30px", padding: "10px" }}
-          />
-          <FaLinkedin
-            style={{ color: "#fff", fontSize: "30px", padding: "10px" }}
-          />
-          <FaYoutube
-            style={{ color: "#fff", fontSize: "30px", padding: "10px" }}
-          />
+          </a>
+
+          <a href="https://www.instagram.com" target="_blank">
+            <FaInstagram
+              style={{ color: "#fff", fontSize: "30px", padding: "10px" }}
+            />
+          </a>
+
+          <a href="https://www.linkedin.com" target="_blank">
+            <FaLinkedin
+              style={{ color: "#fff", fontSize: "30px", padding: "10px" }}
+            />
+          </a>
+
+          <a href="https://www.youtube.com" target="_blank">
+            <FaYoutube
+              style={{ color: "#fff", fontSize: "30px", padding: "10px" }}
+            />
+          </a>
         </div>
       </div>
     </section>

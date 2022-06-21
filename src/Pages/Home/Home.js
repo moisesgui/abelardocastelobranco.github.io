@@ -1,30 +1,34 @@
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 
 import Course from "../../Shared/Components/Course/Course";
-import Campus from "../../Shared/Components/Campus/Campus";
 import Facilities from "../../Shared/Components/Facilities/Facilities";
 import Testimonials from "../../Shared/Components/Testimonials/Testimonials";
 import Footer from "../../Shared/Components/Footer/Footer";
 
-import logo from "../../assets/imgs/logo.png";
 import "./Home.style.css";
+import logo from "../../assets/imgs/abelardocastelo-logo.png";
+import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
+
 
 const Home = () => {
-  // window.onscroll = function () {
-  //   slickyHeader();
-  // };
 
-  // var header = document.getElementById("myHeader");
-  // var navLinks = document.getElementById("navbar");
+  const goAboutUs = () => document.getElementById("aboutUs").scrollIntoView();
 
-  // function slickyHeader() {
-  //   if (window.pageYOffset > 550) {
-  //     header.classList.add("sticky");
-  //     navLinks.classList.add("nav-sticky");
-  //   } else {
-  //     header.classList.remove("sticky");
-  //   }
-  // }
+  useEffect(()=>{
+    window.onscroll = function () {
+      var header = document.getElementById("myHeader");
+      var navLinks = document.getElementById("navbar");
+
+      if (window.pageYOffset > 550) {
+        header.classList.add("sticky");
+        navLinks.classList.add("nav-sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+  
+    };
+  },);
+  
 
   return (
     <>
@@ -39,42 +43,45 @@ const Home = () => {
                 <a href="index.html">HOME</a>
               </li>
               <li>
-                <a href="index.html">ABOUT</a>
+                <a  onClick={() => goAboutUs()}>SOBRE NÓS</a>
               </li>
               <li>
-                <a href="index.html">COUSE</a>
-              </li>
-              <li>
-                <a href="index.html">BLOG</a>
-              </li>
-              <li>
-                <a href="index.html">CONTACT</a>
+                <a href="index.html">CONTATO</a>
               </li>
             </ul>
           </div>
         </nav>
         <div class="text-box">
-          <h1>World's Biggest University</h1>
+          <h1>ABELARDO CASTELO BRANCO</h1>
+          <div class="divide"></div>
           <p>
-            One of the largest universities in the world is ready to prepare you
-            <br />
-            for the world and for life.
+            ADVOCACIA E CONSULTORIA JURÍDICA
           </p>
-          <a href="index.html" class="btn-hero">
-            Visit Us to know More
-          </a>
+          <div class="btn-whats">
+            <a href="https://api.whatsapp.com/send?phone=XXXXXXXXXXX" target="_blank" class="btn-hero">
+              <FaWhatsapp 
+                size="60px"
+              />
+              FALE AGORA PELO WHATSAPP
+            </a>
+          </div>
+          <div class="btn-insta">
+            <a href="index.html" class="btn-hero-2">
+              <FaInstagram 
+                size="50px"
+              />
+              ACESSE O NOSSO INSTAGRAM
+            </a>
+          </div>
         </div>
       </div>
-      <div data-aos="fade-up">
-        <Course />
-      </div>
-      <div data-aos="fade-up">
-        <Campus />
-      </div>
-      <div data-aos="fade-up">
+      <div id="aboutUs" data-aos="fade-up">
         <Facilities />
       </div>
-      <div data-aos="fade-right">
+      <div class="course-content" data-aos="fade-up">
+        <Course />
+      </div>
+      <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <Testimonials />
       </div>
       <div data-aos="fade-up">
