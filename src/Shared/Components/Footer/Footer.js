@@ -7,11 +7,9 @@ const Footer = () => {
   return (
     <section>
       <div class="footer">
-        <h4></h4>
         <p>
-          "O direito do trabalho existe para poupar o trabalhador da exploração do capital e para<br></br>poupar a criança do roubo de suas infâncias".
+          "Faz de mim um profissional justo e honesto no exercício da minha profissão. Que eu tenha ética e moral. Que eu seja competente sem ser arrogante e não me permita nunca aceitar causas injustas e nem superiores às que sou capaz de fazer. Que a minha luta seja sempre em favor da justiça.".
         </p>
-        <span>Felipe Caetano</span>
         <div class="contact-medias">
           <a href="https://www.facebook.com" target="_blank">
             <FaFacebook
@@ -19,7 +17,7 @@ const Footer = () => {
           />
           </a>
 
-          <a href="https://www.instagram.com" target="_blank">
+          <a href="https://instagram.com/abelardocastelobranco.adv?igshid=NmZiMzY2Mjc=" target="_blank">
             <FaInstagram
               style={{ color: "#fff", fontSize: "30px", padding: "10px" }}
             />
@@ -27,12 +25,6 @@ const Footer = () => {
 
           <a href="https://www.linkedin.com" target="_blank">
             <FaLinkedin
-              style={{ color: "#fff", fontSize: "30px", padding: "10px" }}
-            />
-          </a>
-
-          <a href="https://www.youtube.com" target="_blank">
-            <FaYoutube
               style={{ color: "#fff", fontSize: "30px", padding: "10px" }}
             />
           </a>

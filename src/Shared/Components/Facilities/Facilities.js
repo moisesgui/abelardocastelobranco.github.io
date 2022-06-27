@@ -6,16 +6,16 @@ const Facilities = () => {
   return (
     <section class="facilities">
       <h1>Nossa visão</h1>
-      <p>
+      <span class="vision-subtitle">
         Quem somos e qual nossa visão.
-      </p>
+      </span>
 
       <div class="row">
 
         <div class="vision-content">
           
           <div class="vision-1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-            <div>
+            <div class="vision-item">
               <h3>Visão</h3>
             </div>
             <p>
@@ -25,7 +25,7 @@ const Facilities = () => {
 
 
           <div class="vision-1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-            <div>
+            <div class="vision-item">
               <h3>Missão</h3> 
             </div>
               <p>
@@ -34,7 +34,7 @@ const Facilities = () => {
           </div>
 
           <div class="vision-1" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-            <div>
+            <div class="vision-item">
               <h3>Valores</h3>
             </div>
               <p>• Valorização das pessoas;</p>

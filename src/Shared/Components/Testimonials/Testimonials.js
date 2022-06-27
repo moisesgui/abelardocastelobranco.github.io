@@ -30,7 +30,7 @@ const Testimonials = () => {
             Fui muito bem assistida e auxiliada em todo o decorrer do processo.
             Recomendo e agora sou cliente.
             </p>
-            <h3>Clarice Aguiar Medeiros</h3>
+            <h3>Ana Cecília Lima</h3>
           </div>
         </div>
       </div>

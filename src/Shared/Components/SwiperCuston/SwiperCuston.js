@@ -6,7 +6,10 @@ import fachada from '../../../assets/imgs/fachada.jpg';
 import patio from '../../../assets/imgs/patio.jpg';
 import elevadores from '../../../assets/imgs/elevadores.jpg';
 import estacionamento from '../../../assets/imgs/estacionamento.jpg';
-import cafeteria from '../../../assets/imgs/cafeteria.png';
+import sala1 from '../../../assets/imgs/sala1.jpg';
+import sala2 from '../../../assets/imgs/sala2.jpg';
+import sala3 from '../../../assets/imgs/sala3.jpg';
+
  
 const SwiperCuston = () => {
 
@@ -15,7 +18,9 @@ const SwiperCuston = () => {
     patio,
     elevadores,
     estacionamento,
-    cafeteria,
+    sala1,
+    sala2,
+    sala3,
   ]
 
   const settings = {

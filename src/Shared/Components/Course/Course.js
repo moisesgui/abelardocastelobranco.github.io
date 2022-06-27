@@ -4,32 +4,30 @@ import "./Couse.style.css";
 const Course = () => {
   return (
     <section class="course">
-      <h1>Courses we Offer</h1>
+      <h1>Você está passando por algum desses problemas?</h1>
       <p class="course-title">
-        We have the most varied and most sought after courses for your
-        graduation.
+        Aqui abaixo você encontrará alguns dos serviços em que nós somos especialistas!
       </p>
-      <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-        <div class="course-col">
-          <h3>Intermediate</h3>
-          <p class="course-description">
-            the various courses in the intermediate area are available on our
-            online platforms
-          </p>
+      <div class="course-container" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div>
+          <ul class="course-item">
+            <li>Demissão com ou sem justa causa</li>
+            <li>Horas extras não pagas</li>
+            <li>Adicional de periculosidade</li>
+            <li>Adicional de insalubridade</li>
+            <li>Adicional noturno</li>
+            <li>Rescisão indireta</li>
+          </ul>
         </div>
-        <div class="course-col" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-          <h3>Degree</h3>
-          <p class="course-description">
-            the various courses in the Degree area are available on our online
-            platforms
-          </p>
-        </div>
-        <div class="course-col" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-          <h3>Post Graduation</h3>
-          <p class="course-description">
-            the various courses in the Post Graduation area are available on our
-            online platforms
-          </p>
+        <div>
+          <ul class="course-item">
+              <li>Não teve CTPS assinada</li>
+              <li>Estabilidade gestante</li>
+              <li>Assédio moral</li>
+              <li>Não pagamento de rescisão</li>
+              <li>Acidente de trabalho</li>
+              <li>Entre outras...</li>
+          </ul>
         </div>
       </div>
     </section>
