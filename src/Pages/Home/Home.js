@@ -66,7 +66,7 @@ const Home = () => {
             </a>
           </div>
           <div class="btn-insta">
-            <a href="index.html" class="btn-hero-2">
+            <a href="https://instagram.com/abelardocastelobranco.adv?igshid=NmZiMzY2Mjc=" class="btn-hero-2">
               <FaInstagram 
                 size="50px"
               />
