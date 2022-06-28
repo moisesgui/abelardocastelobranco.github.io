@@ -6,7 +6,7 @@ const Course = () => {
     <section class="course">
       <h1>Você está passando por algum desses problemas?</h1>
       <p class="course-title">
-        Aqui abaixo você encontrará alguns dos serviços em que nós somos especialistas!
+        Aqui você encontrará alguns dos serviços em que nós somos especialistas.
       </p>
       <div class="course-container" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <div>

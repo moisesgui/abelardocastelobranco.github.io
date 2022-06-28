@@ -8,7 +8,7 @@ const Footer = () => {
     <section>
       <div class="footer">
         <p>
-          "Faz de mim um profissional justo e honesto no exercício da minha profissão. Que eu tenha ética e moral. Que eu seja competente sem ser arrogante e não me permita nunca aceitar causas injustas e nem superiores às que sou capaz de fazer. Que a minha luta seja sempre em favor da justiça.".
+          "Faz de mim um profissional justo e honesto no exercício da minha profissão. Que eu tenha ética e moral. Que eu seja competente sem ser arrogante e não me permita nunca aceitar causas injustas e nem superiores às que sou capaz de fazer. Que a minha luta seja sempre em favor da justiça."
         </p>
         <div class="contact-medias">
           <a href="https://www.facebook.com" target="_blank">
