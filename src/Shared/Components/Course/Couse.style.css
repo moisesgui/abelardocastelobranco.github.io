@@ -1,4 +1,4 @@
-.course-item li:hover {
+.course-item a:hover {
 	transform: scale(1.08);
 	transition: 0.3s;
 	color: #926a42;
@@ -9,12 +9,17 @@
 	text-align: center;
 	padding: 60px;
 }
+.course span {
+	color: #fff;
+	margin-bottom: 20px;
+}
 .course-content {
 	background-color: #3E3E3F;
 }
 .course-container {
 	display: flex;
 	justify-content: space-evenly;
+	margin: 40px 0px;
 }
 .course h1{
 	color: #926a42;
@@ -26,19 +31,19 @@
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 22px;
-	padding: 10px;
-	margin-bottom: 30px;
+	padding: 10px 0 40px 0;
 }
-.course-item {
+.course-item a {
 	display: flex;
-    flex-direction: column;
-    padding: 30px;
+	align-items: center;
+    padding: 10px;
     letter-spacing: 2px;
     text-align: left;
     color: antiquewhite;
     line-height: 40px;
     font-size: 18px;
 	list-style: none;
+	text-decoration: none;
 }
 .course-item svg {
 	padding-right: 10px;

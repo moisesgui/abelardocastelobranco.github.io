@@ -59,7 +59,7 @@ const Home = () => {
             ADVOCACIA E CONSULTORIA JURÍDICA
           </p>
           <div class="btn-whats">
-            <a href="https://api.whatsapp.com/send?phone=5585986900473" target="_blank" class="btn-hero">
+            <a class="btn-hero" href="https://api.whatsapp.com/send?phone=5585986900473" target="_blank">
               <FaWhatsapp 
                 size="55px"
               />
@@ -67,7 +67,7 @@ const Home = () => {
             </a>
           </div>
           <div class="btn-insta">
-            <a href="https://instagram.com/abelardocastelobranco.adv?igshid=NmZiMzY2Mjc=" class="btn-hero-2">
+            <a class="btn-hero-2" href="https://instagram.com/abelardocastelobranco.adv?igshid=NmZiMzY2Mjc=" target="_blank">
               <FaInstagram 
                 size="50px"
               />
