@@ -10,10 +10,7 @@ const Course = () => {
       <p class="course-title">
         Aqui você encontrará alguns dos serviços em que nós somos especialistas.
       </p>
-      <div>
-
-      <span>Clique na opção desejada para ter mais detalhes.</span>
-      </div>
+        <span>Clique na opção desejada para ter mais detalhes.</span>
       <div class="course-container" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <div>
           <div class="course-item">
