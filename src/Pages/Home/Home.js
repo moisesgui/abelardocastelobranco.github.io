@@ -7,7 +7,8 @@ import Footer from "../../Shared/Components/Footer/Footer";
 
 import "./Home.style.css";
 import logo from "../../assets/imgs/abelardocastelo-logo.png";
-import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
+import ctps from "../../assets/imgs/ctps-0.png";
+import { FaWhatsapp, FaInstagram, FaCheck } from 'react-icons/fa';
 
 
 const Home = () => {
@@ -60,7 +61,7 @@ const Home = () => {
           <div class="btn-whats">
             <a href="https://api.whatsapp.com/send?phone=5585986900473" target="_blank" class="btn-hero">
               <FaWhatsapp 
-                size="60px"
+                size="55px"
               />
               FALE AGORA PELO WHATSAPP
             </a>
@@ -75,11 +76,23 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div id="aboutUs" data-aos="fade-up">
-        <Facilities />
+      <div class="ctps-container" data-aos="fade-up">
+        <div>
+          <img class="ctps-image" src={ctps} alt="ctps" />
+        </div>
+        <div class="ctps-content">
+          <h4>Foi demitido sem os devidos direitos?</h4>
+          <span>Entre em contato com a gente agora mesmo e garanta seus direitos. A justiça socorre aqueles que vão em busca dos seus direitos.</span>
+            <a class="ctps-btn" href="https://api.whatsapp.com/send?phone=5585986900473" target="_blank">
+              Click aqui e saiba mais
+            </a>
+        </div>
       </div>
       <div class="course-content" data-aos="fade-up">
         <Course />
+      </div>
+      <div id="aboutUs" data-aos="fade-up">
+        <Facilities />
       </div>
       <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <Testimonials />

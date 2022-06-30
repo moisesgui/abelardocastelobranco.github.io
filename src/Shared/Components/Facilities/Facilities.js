@@ -1,13 +1,14 @@
 import React from "react";
+
 import advogado from "../../../assets/imgs/foto-adv.jpg";
 import "./Facilities.style.css";
 
 const Facilities = () => {
   return (
     <section class="facilities">
-      <h1>Nossa visão</h1>
+      <h1>Quem somos</h1>
       <span class="vision-subtitle">
-        Quem somos e qual nossa visão.
+        Quem somos nós e qual nossa visão, missão e nossos valores.
       </span>
 
       <div class="row">

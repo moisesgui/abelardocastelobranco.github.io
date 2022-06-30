@@ -1,4 +1,6 @@
 import React from "react";
+
+import { FaCheck } from 'react-icons/fa';
 import "./Couse.style.css";
 
 const Course = () => {
@@ -11,22 +13,22 @@ const Course = () => {
       <div class="course-container" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <div>
           <ul class="course-item">
-            <li>Demissão com ou sem justa causa</li>
-            <li>Horas extras não pagas</li>
-            <li>Adicional de periculosidade</li>
-            <li>Adicional de insalubridade</li>
-            <li>Adicional noturno</li>
-            <li>Rescisão indireta</li>
+            <li><FaCheck size="16px" />Demissão com ou sem justa causa</li>
+            <li><FaCheck size="16px" />Horas extras não pagas</li>
+            <li><FaCheck size="16px" />Adicional de periculosidade</li>
+            <li><FaCheck size="16px" />Adicional de insalubridade</li>
+            <li><FaCheck size="16px" />Adicional noturno</li>
+            <li><FaCheck size="16px" />Rescisão indireta</li>
           </ul>
         </div>
         <div>
           <ul class="course-item">
-              <li>Não teve CTPS assinada</li>
-              <li>Estabilidade gestante</li>
-              <li>Assédio moral</li>
-              <li>Não pagamento de rescisão</li>
-              <li>Acidente de trabalho</li>
-              <li>Entre outras...</li>
+              <li><FaCheck size="16px" />Não teve CTPS assinada</li>
+              <li><FaCheck size="16px" />Estabilidade gestante</li>
+              <li><FaCheck size="16px" />Assédio moral</li>
+              <li><FaCheck size="16px" />Não pagamento de rescisão</li>
+              <li><FaCheck size="16px" />Acidente de trabalho</li>
+              <li><FaCheck size="16px" />Entre outras...</li>
           </ul>
         </div>
       </div>
