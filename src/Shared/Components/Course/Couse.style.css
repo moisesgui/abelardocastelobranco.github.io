@@ -104,4 +104,10 @@
 	.course-container {
 		flex-direction: column;
 	}
+
+	.course-item a:hover{
+		transform: scale(none);
+		transition: 0;
+		color: white;
+	}
 }
