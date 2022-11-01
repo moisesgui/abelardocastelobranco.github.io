@@ -29,7 +29,7 @@ const Course = () => {
               <a href="https://api.whatsapp.com/send?phone=5585986900473&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20caso%20de%20ass%C3%A9dio%20moral!" target="_blank"><FaCheck size="16px" />Assédio moral</a>
               <a href="https://api.whatsapp.com/send?phone=5585986900473&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20n%C3%A3o%20pagamento%20de%20rescis%C3%A3o%20trabalhista!"><FaCheck size="16px" />Não pagamento de rescisão</a>
               <a href="https://api.whatsapp.com/send?phone=5585986900473&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20acidente%20de%20trabalho!" target="_blank"><FaCheck size="16px" />Acidente de trabalho</a>
-              <a href="https://api.whatsapp.com/send?phone=5585986900473&text=Ol%C3%A1%20gostaria%20de%20tirar%20uma%20d%C3%BAvida..." target="_blank"><FaCheck size="16px" />Dúvidas...</a>
+              <a href="https://api.whatsapp.com/send?phone=5585986900473&text=Ol%C3%A1%20gostaria%20de%20tirar%20uma%20d%C3%BAvida..." target="_blank"><FaCheck size="16px" />outros assuntos...</a>
           </div>
         </div>
       </div>
